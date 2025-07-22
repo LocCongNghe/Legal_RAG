@@ -23,12 +23,18 @@ Legal_RAG là chatbot hỗ trợ hỏi đáp pháp luật, sử dụng công ngh
 3. **Chuẩn bị dữ liệu:**
     - Đặt các file văn bản luật vào thư mục `data/`.
 
-4. **Tạo vector store:**
+4. **Thêm API Key:**
+      ```
+      OPENAI_API_KEY= your_openai_api_key
+      TAVILY_API_KEY= your_tavily_api_key
+      ```
+
+5. **Tạo vector store:**
     ```sh
     python embedding.py
     ```
 
-5. **Chạy ứng dụng:**
+6. **Chạy ứng dụng:**
     ```sh
     streamlit run main.py
     ```
