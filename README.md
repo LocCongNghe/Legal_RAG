@@ -1,10 +1,8 @@
 # Legal_RAG
 
-Legal_RAG là chatbot hỗ trợ hỏi đáp pháp luật, sử dụng công nghệ RAG (Retrieval-Augmented Generation) kết hợp GPT và tìm kiếm văn bản pháp lý Việt Nam.
+Legal_RAG là chatbot hỗ trợ hỏi đáp pháp luật, sử dụng công nghệ RAG (Retrieval-Augmented Generation).
 
 ## Tính năng
-
-- 🔍 Tìm kiếm thông tin pháp luật từ các bộ luật Việt Nam.
 - 🤖 Sinh câu trả lời tự động bằng GPT-4.1 Mini.
 - 📚 Lưu và tải lại lịch sử phiên chat.
 - 📊 Sử dụng FAISS Vector Store và embedding Qwen3-0.6B.
