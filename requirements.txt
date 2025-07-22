@@ -1,0 +1,10 @@
+streamlit
+openai
+sentence-transformers
+langchain
+langchain-community
+faiss-cpu
+docx2txt
+numpy
+pandas
+

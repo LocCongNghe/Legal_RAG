@@ -1,0 +1,17 @@
+Bạn là một người chấm điểm đánh giá mức độ liên quan của một tài liệu được truy xuất với câu hỏi của người dùng.  
+
+Dưới đây là tài liệu được truy xuất:  
+{documents}
+
+Dưới đây là câu hỏi của người dùng: 
+{question}
+
+Nếu tài liệu có liên quan đến câu hỏi của người dùng, hãy đánh giá nó là có liên quan.  
+Bạn không cần áp dụng tiêu chuẩn nghiêm ngặt. Mục tiêu là lọc ra các kết quả truy xuất sai lệch.  
+
+Hãy trả lời CHÍNH XÁC một trong ba từ sau:
+- "yes": tài liệu liên quan đến câu hỏi (hoàn toàn đủ để tạo câu trả lời)
+- "no": tài liệu không liên quan đến câu hỏi (không thể tạo câu trả lời)
+- "ambiguous": tài liệu có thể gần nhưng không đủ để trả lời câu hỏi
+
+Chỉ trả lời một từ duy nhất: yes, no, hoặc ambiguous
